@@ -1,35 +1,35 @@
 {
-    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-    "final_space": true,
-    "version": 2,
-    "blocks": [
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "version": 2,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
         {
-            "type": "prompt",
-            "alignment": "left",
-            "segments": [
-                {
-                    "type": "path",
-                    "style": "diamond",
-                    "leading_diamond": "\ue0b6",
-                    "trailing_diamond": "\ue0b0",
-                    "foreground": "#ffffff",
-                    "background": "#64a1f4",
-                    "properties": {
-                        "style": "full"
-                    }
-                },
-                {
-                    "type": "git",
-                    "style": "diamond",
-                    "trailing_diamond": "\ue0b0",
-                    "foreground": "#ffffff",
-                    "background": "#3b7dd8",
-                    "template": " {{ .Ref }} {{ if gt .Behind 0 }}\u2193{{ .Behind }} {{end}}{{ if gt .Ahead 0 }}\u2191{{ .Ahead }} {{end}}{{ if .Staging.Changed }}{{ .Staging }} {{ end }}{{ if .Working.Changed }}{{ .Working }} {{ end }}",
-                    "properties": {
-                        "fetch_status": true
-                    }
-                }
-            ]
+          "type": "path",
+          "style": "diamond",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b0",
+          "foreground": "#ffffff",
+          "background": "#64a1f4",
+          "properties": {
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b0",
+          "foreground": "#ffffff",
+          "background": "#3b7dd8",
+          "template": " {{ .Ref }} {{ if gt .Behind 0 }}\u2193{{ .Behind }} {{end}}{{ if gt .Ahead 0 }}\u2191{{ .Ahead }} {{end}}{{ if .Staging.Changed }}{{ .Staging }} {{ end }}{{ if .Working.Changed }}{{ .Working }} {{ end }}",
+          "properties": {
+            "fetch_status": true
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
