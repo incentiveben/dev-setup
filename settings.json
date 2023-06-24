@@ -1,0 +1,14 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.minimap.enabled": false,
+  "explorer.autoReveal": false,
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+  "terminal.integrated.fontSize": 12,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.startupEditor": "none"
+}
