@@ -1,0 +1,17 @@
+{
+  "centerOnLaunch": true,
+  "profiles": {
+    "defaults": {
+      "colorScheme": "One Half Dark",
+      "elevate": true,
+      "font": {
+        "face": "MesloLGL Nerd Font"
+      },
+      "opacity": 80,
+      "padding": "20",
+      "useAcrylic": true,
+      "useAtlasEngine": true
+    }
+  },
+  "useAcrylicInTabRow": true
+}
