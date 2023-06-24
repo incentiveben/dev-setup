@@ -1,5 +1,5 @@
-mkdir c:\repos
 wsl --install --no-distribution
+
 winget install --id 7zip.7zip -e
 winget install --id Docker.DockerDesktop -e
 winget install --id Git.Git -e
@@ -14,3 +14,9 @@ winget install --id Microsoft.Teams -e
 winget install --id Microsoft.VisualStudioCode -e
 winget install --id OpenJS.NodeJS.LTS -e
 winget install --id WinMerge.WinMerge -e
+
+git config --global user.name "Ben Hinman"
+git config --global user.email ""
+git config --global core.editor notepad.exe
+
+mkdir C:\repos
