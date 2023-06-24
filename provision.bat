@@ -1,4 +1,5 @@
 mkdir c:\repos
+wsl --install --no-distribution
 winget install --id 7zip.7zip -e
 winget install --id Docker.DockerDesktop -e
 winget install --id Git.Git -e
