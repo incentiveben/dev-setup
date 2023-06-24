@@ -8,6 +8,7 @@
   "git.enableSmartCommit": true,
   "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.minimumContrastRatio": 1,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Atom One Dark",
   "workbench.startupEditor": "none"
