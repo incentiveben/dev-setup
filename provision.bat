@@ -16,7 +16,9 @@ winget install --id OpenJS.NodeJS.LTS -e
 winget install --id WinMerge.WinMerge -e
 
 git config --global user.name "Ben Hinman"
-git config --global user.email ""
+git config --global user.email "{EMAIL_ADDRESS}"
 git config --global core.editor notepad.exe
 
 mkdir C:\repos
+cd C:\repos
+gh repo list {GITHUB_ORGANISATION_NAME} -L 1000 --json sshUrl | ConvertFrom-Json | foreach { git clone $_.sshUrl }
