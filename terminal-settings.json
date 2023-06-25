@@ -8,10 +8,10 @@
         "face": "MesloLGL Nerd Font",
         "size": 14.0
       },
+      "intenseTextStyle": "all",
       "opacity": 80,
       "padding": "20",
-      "useAcrylic": true,
-      "useAtlasEngine": true
+      "useAcrylic": true
     }
   },
   "useAcrylicInTabRow": true
