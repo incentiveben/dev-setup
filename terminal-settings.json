@@ -5,7 +5,8 @@
       "colorScheme": "One Half Dark",
       "elevate": true,
       "font": {
-        "face": "MesloLGL Nerd Font"
+        "face": "MesloLGL Nerd Font",
+        "size": 14.0
       },
       "opacity": 80,
       "padding": "20",
