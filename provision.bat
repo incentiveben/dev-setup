@@ -17,7 +17,11 @@ winget install --id OpenJS.NodeJS.LTS -e
 
 git config --global user.name "Ben Hinman"
 git config --global user.email "{EMAIL_ADDRESS}"
-git config --global core.editor notepad.exe
+git config --global core.editor "code --wait"
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd "code --wait $MERGED"
 
 mkdir C:\repos
 cd C:\repos
