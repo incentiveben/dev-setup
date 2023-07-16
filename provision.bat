@@ -3,17 +3,22 @@ wsl --install --no-distribution
 winget install --id 7zip.7zip -e
 winget install --id Balsamiq.Wireframes -e
 winget install --id Docker.DockerDesktop -e
+winget install --id dotPDNLLC.paintdotnet -e
 winget install --id Git.Git -e
 winget install --id GitHub.cli -e
 winget install --id Google.Chrome -e
+winget install --id Hashicorp.Terraform -e
 winget install --id JanDeDobbeleer.OhMyPosh -e
 winget install --id JetBrains.Rider -e
-winget install --id Microsoft.dotnet -e
+winget install --id Microsoft.DotNet.Framework.DeveloperPack_4 -e
+winget install --id Microsoft.DotNet.SDK.7 -e
 winget install --id Microsoft.PowerShell -e
 winget install --id Microsoft.PowerToys -e
 winget install --id Microsoft.Teams -e
+winget install --id Microsoft.VisualStudio.2022.BuildTools -e
 winget install --id Microsoft.VisualStudioCode -e
 winget install --id OpenJS.NodeJS.LTS -e
+winget install --id WinMerge.WinMerge -e
 
 git config --global user.name "Ben Hinman"
 git config --global user.email "{EMAIL_ADDRESS}"
