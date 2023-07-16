@@ -2,6 +2,7 @@ wsl --install --no-distribution
 
 winget install --id 7zip.7zip -e
 winget install --id Balsamiq.Wireframes -e
+winget install --id dandavison.delta -e
 winget install --id Docker.DockerDesktop -e
 winget install --id dotPDNLLC.paintdotnet -e
 winget install --id Git.Git -e
@@ -28,6 +29,12 @@ git config --global diff.tool vscode
 git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd "code --wait $MERGED"
+
+git config --global core.pager delta
+git config --global interactive.diffFilter "delta --color-only"
+git config --global delta.navigate true
+git config --global merge.conflictstyle diff3
+git config --global diff.colorMoved default
 
 mkdir C:\repos
 cd C:\repos
