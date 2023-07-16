@@ -19,6 +19,7 @@ winget install --id Microsoft.Teams -e
 winget install --id Microsoft.VisualStudio.2022.BuildTools -e
 winget install --id Microsoft.VisualStudioCode -e
 winget install --id OpenJS.NodeJS.LTS -e
+winget install --id Postman.Postman -e
 winget install --id WinMerge.WinMerge -e
 
 git config --global user.name "Ben Hinman"
