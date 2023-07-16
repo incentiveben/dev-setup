@@ -22,6 +22,7 @@ winget install --id WinMerge.WinMerge -e
 
 git config --global user.name "Ben Hinman"
 git config --global user.email "{EMAIL_ADDRESS}"
+git config --global format.pretty format:"%Cred%h %Cgreen%ar %Cblue%an%Creset %s%C(yellow)%d"
 git config --global core.editor "code --wait"
 git config --global diff.tool vscode
 git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
