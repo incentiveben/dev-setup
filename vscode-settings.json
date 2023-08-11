@@ -4,6 +4,7 @@
   "editor.fontFamily": "MesloLGL Nerd Font",
   "editor.minimap.enabled": false,
   "explorer.autoReveal": false,
+  "extensions.ignoreRecommendations": false,
   "files.insertFinalNewline": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
